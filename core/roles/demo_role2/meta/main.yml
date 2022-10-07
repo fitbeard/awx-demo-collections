@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  role_name: demo_role2
+  namespace: demo
+  author: Tadas Sutkaitis <tadas@sutkaitis.ltd>
+  description: Demo role nr 2
+  license: "TBA"
+  min_ansible_version: 2.9
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all

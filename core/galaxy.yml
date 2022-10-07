@@ -1,0 +1,9 @@
+namespace: demo
+name: core
+
+readme: README.md
+
+version: 1.0.0
+
+authors:
+  - Tadas Sutkaitis <tadas@sutkaitis.ltd>

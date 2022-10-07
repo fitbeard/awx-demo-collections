@@ -1,0 +1,10 @@
+---
+- name: Create directories
+  file:
+    name: "{{ item.name }}"
+    mode: "{{ item.mode }}"
+    state: directory
+  with_items:
+    - {name: "/opt/demo2", mode: "0755"}
+    - {name: "/opt/demo2/{{ inventory_hostname }}", mode: "0755"}
+    - {name: "/opt/demo2/{{ inventory_hostname }}/{{ ansible_fqdn }}", mode: "0755"}
